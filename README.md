@@ -73,9 +73,7 @@ const speed = Math.min(10, Math.sqrt(deltaX ** 2 + deltaY ** 2) / 10);
    - `speed = Math.min(10, Math.sqrt(deltaX ** 2 + deltaY ** 2) / 10);`
    - This line calculates the movement speed based on the Euclidean distance between the joystick's start and current position:
    
-     \[
-     \text{speed} = \sqrt{(\Delta x)^2 + (\Delta y)^2}
-     \]
+     ![\text{speed} = \sqrt{(\Delta x)^2 + (\Delta y)^2}\](https://github.com/user-attachments/assets/7b2da31f-0ef1-436f-a9b9-fa172c8a1ac6)
      
    - `Math.min(10, ...)` caps the speed to a maximum value (here, `10`) for controlled movement, preventing balls from moving too quickly when the joystick is pulled far.
 
@@ -134,9 +132,7 @@ if (distanceToEnd < endRadius) {
 1. **Proximity Check**:
    - The distance from each ball to the center of the `#end` area is calculated using:
 
-     \[
-     \text{distanceToEnd} = \sqrt{(\text{endX} - \text{ball.x})^2 + (\text{endY} - \text{ball.y})^2}
-     \]
+     ![\text{distanceToEnd} = \sqrt{(\text{endX} - \text{ball.x})^2 + (\text{endY} - \text{ball.y})^2}\](https://github.com/user-attachments/assets/5fe9558f-8fa1-4fa6-aa63-f7d27f70cbdf)
 
    - If `distanceToEnd` is smaller than `endRadius`, the ball is considered inside the target.
 
