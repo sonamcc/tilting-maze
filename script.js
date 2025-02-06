@@ -657,7 +657,7 @@ function main(timestamp) {
         ${!hardMode ? "<p>Press H for hard mode</p>" : ""}
         <p>
           Developed by
-          <a href="https://github.com/notkshitijsingh" , target="_top"
+          <a href="https://github.com/sonamcc" , target="_top"
             >@notkshitijsingh</a
           >
         </p>`;
