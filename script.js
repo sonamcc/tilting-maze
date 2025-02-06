@@ -658,7 +658,7 @@ function main(timestamp) {
         <p>
           Developed by
           <a href="https://github.com/sonamcc" , target="_top"
-            >@notkshitijsingh</a
+            >@Sonam</a
           >
         </p>`;
       noteElement.style.opacity = 1;
